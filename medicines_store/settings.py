@@ -74,18 +74,27 @@ WSGI_APPLICATION = 'medicines_store.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+#DATABASES = {
+    #'default': {
+      #  'ENGINE': 'django.db.backends.mysql',
+      #  'NAME': 'online_med',
+      #  'USER': 'khushboo',
+      #  'PASSWORD': 'khush123',
+      #  'HOST': 'localhost',
+      #  'PORT': '3306',
+  #  }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'online_med',
-        'USER': 'khushboo',
+        'NAME': 'onlinemed',
+        'USER': 'admin',
         'PASSWORD': 'khush123',
-        'HOST': 'localhost',
+        'HOST': 'onlinemedicine.clrwccvn8zy7.eu-north-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
