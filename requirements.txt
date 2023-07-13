@@ -1,0 +1,13 @@
+asgiref                
+distlib                
+Django                 
+filelock               
+mysql-connector-python 
+mysqlclient            
+pip                    
+platformdirs          
+protobuf               
+setuptools             
+sqlparse               
+tzdata                 
+virtualenv             
